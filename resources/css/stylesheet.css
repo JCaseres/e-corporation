@@ -1,0 +1,141 @@
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    background-color: #62676A;
+    margin: 0 auto;
+    color: #EFF8F3;
+}
+
+/* Header Section */
+
+header {
+    background-color: #0C2231;
+    border-bottom: 2px solid #31724B;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    text-align: center;
+}
+
+li {
+    display: inline-flex;
+    padding-inline: 5em;
+    color: antiquewhite;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+    font-size: 1.5em;
+}
+
+/* Hero Banner Section */
+
+.hero-banner {
+    position: relative;
+    top: 7em;
+    align-items: center;
+}
+
+.hero-box {
+    display: flex;
+    position: absolute;
+    bottom: 200px;
+    left: 80px;
+    padding: 15px;
+    z-index: 1;
+    background-color: #0C2231;
+    width: 25.5em;
+    height: fit-content;
+    text-align: center;
+    line-height: 2.5em;
+}
+
+/* Mobility Images Section */
+
+.mobility-title {
+    margin: 0 auto;
+    margin-top: 10em;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-color: #0C2231;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    max-width: 115em;
+    border-top: 1px solid #31724B;
+    border-left: 1px solid #31724B;
+    border-right: 1px solid #31724B;
+    
+}
+
+.mobility-images {
+    max-width: 115em;
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    row-gap: 3em;
+    background-color: #0C2231;
+    padding-bottom: 2em;
+    border-left: 1px solid #31724B;
+    border-right: 1px solid #31724B;
+    border-bottom: 1px solid #31724B;
+
+}
+
+/* Team Images Sections */
+
+.team-title {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #0C2231;
+    max-width: 115em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-top: 1px solid #31724B;
+    border-left: 1px solid #31724B;
+    border-right: 1px solid #31724B;
+}
+
+.team-pictures {
+    text-align: center;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin: 0 auto;
+    background-color: #0C2231;
+    max-width: 115em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    border-left: 1px solid #31724B;
+    border-right: 1px solid #31724B;
+    border-bottom: 1px solid #31724B;
+}
+
+/* Contact Info */
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 2em;
+    background-color: #0C2231;
+    max-width: 115em;
+    margin: 0 auto;
+    margin-top: 2em;
+    border: 1px solid #31724B;
+}
+
+footer {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
